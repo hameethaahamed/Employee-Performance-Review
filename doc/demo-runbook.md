@@ -6,7 +6,7 @@ Show the complete manager-to-HR flow: live dropdown data â†’ review submission â
 
 ## Code and screenshots
 
-- Repository: [rahulpokharkar64/employee-review](https://github.com/rahulpokharkar64/employee-review)
+- Repository: [Employee-Performance-Review](https://github.com/hameethaahamed/Employee-Performance-Review.git)
 - Submission form: [01-review-form.png](./screenshots/01-review-form.png) (draft screenshot; not a saved record).
 - Review register: [02-review-register.png](./screenshots/02-review-register.png) (live API data, including saved demo review 25).
 - Slides: [HTML slideshow](./demo-slides.html) and [Markdown source](./demo-slides.md).
