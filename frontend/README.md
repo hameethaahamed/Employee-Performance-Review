@@ -1,6 +1,6 @@
 # Employee Performance Review – Frontend
 
-React + TypeScript + Vite dashboard for the Employee Performance Review API (FastAPI backend). The look follows the Testleaf platform: navy sidebar, blue actions, white panels, green status chips and gold stars.
+React + TypeScript + Vite dashboard for the Employee Performance Review API (FastAPI backend). The People Pulse look uses a navy sidebar, blue actions, white panels, green status chips and gold stars.
 
 ## Screens
 
@@ -34,7 +34,7 @@ Copy `.env.example` to `.env` and edit. Vite only exposes variables starting wit
 | --- | --- | --- |
 | `VITE_API_BASE_URL` | `http://localhost:8000/api` | Backend base URL including `/api`, no trailing slash |
 | `VITE_PAGE_SIZE` | `5` | Rows per page |
-| `VITE_APP_NAME` | `Testleaf` | Name beside the logo |
+| `VITE_APP_NAME` | `People Pulse` | Name beside the logo |
 
 Restart `npm run dev` after changing `.env`. Endpoint paths (`/employees`, `/reviews`, …) are in `src/config.ts`.
 
@@ -55,7 +55,7 @@ frontend/
 └── src/
     ├── main.tsx             entry point
     ├── App.tsx              only composes Sidebar + PageView
-    ├── App.css              all styling (Testleaf look)
+    ├── App.css              all styling (People Pulse look)
     ├── index.css            base reset
     ├── types.ts             interfaces + default values + menu/criteria constants
     ├── config.ts            reads .env, endpoint paths
